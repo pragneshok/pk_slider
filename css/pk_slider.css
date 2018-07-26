@@ -1,0 +1,36 @@
+.prev, .next{
+    position: absolute;
+    top:50%;
+    padding: 10px;
+    border:1px solid #000;
+    display: block; 
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    z-index: 999;
+}
+.prev{
+    left:0;
+}
+.next{
+    right:0;   
+}
+video {
+    height: auto;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    z-index: 1;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    height: 100%;
+    background-position:top center;
+}
